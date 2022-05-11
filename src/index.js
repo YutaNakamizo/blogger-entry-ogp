@@ -87,5 +87,5 @@ app.get('/', (req, res) => {
 });
 
 // ## Start Server
-app.listen(80);
+app.listen(process.env.PORT || 80);
 
